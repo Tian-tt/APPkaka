@@ -1,0 +1,30 @@
+.collect{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box
+}
+.taskheader{
+  width: 100%;
+  padding:3%;
+  display: flex;
+  background-image: url('../images/u402.svg');
+}
+.taskheader>a>img{
+  width: 20px;
+  height: 20px;
+}
+.taskheader span{
+  color:#fff;
+  margin:0 auto;
+  font-size:18px;
+  font-weight:400;
+}
+.collect>.img{
+  width: 100%;
+  overflow: hidden;
+}
+.collect>.img>img{
+  width: 100%;
+  margin-top:-40%;
+}

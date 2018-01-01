@@ -1,0 +1,42 @@
+.setting{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+.setting .bg{
+  width: 100%;
+  background-image: url('../images/u402.svg');
+}
+.setting .bg>img{
+  width: 15%;
+  padding:3% 0;
+  margin-left:45%;
+}
+.settingContent{
+  width: 100%;
+  padding-left:3%;
+}
+.settingContent>div{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding:3% 3% 3% 0;
+  border-bottom:1px solid #b5b0b0;
+}
+.settingContent>div>img{
+  width: 5%;
+  height: 5%;
+}
+.setting>button{
+  width: 80%;
+  margin:0 auto;
+  border:0;
+  background-image: url('../images/u402.svg');
+  color:#fff;
+  border-radius: 6px;
+  padding:3% 0;
+  margin-top:30%;
+  margin-bottom:50%;
+}

@@ -1,0 +1,94 @@
+.deposit{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.depositHeader{
+  width: 100%;
+  color:#fff;
+  padding:2%;
+  text-align: center;
+  display: flex;
+  background-image: url('../images/u400.svg');
+}
+.depositHeader span{
+  font-size:14px;
+  font-weight:bold;
+}
+.depositHeader h1{
+  font-style:normal;
+  font-weight:bold;
+  font-size:20px;
+  color:#fff;
+  margin:0;
+  margin:0 auto;
+}
+.depositContent{
+  background-color: #fff;
+  border-radius: 6px;
+  padding:2% 15% 10% 10%;
+  display: flex;
+  flex-direction: column;
+}
+.depositContent>div{
+  width: 100%;
+  display: flex;
+  padding-bottom:5%;
+}
+.depositContent .bank{
+  color:cyan;
+}
+.depositContent .bankText{
+  color:#999;
+}
+.depositContent .bankText>span{
+  color:red;
+}
+.depositContent>div>div{
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+.depositContent>div span{
+  color:#666;
+  font-size:14px;
+  margin-right:5%;
+}
+.reservePost{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.reservePost .inputText{
+  display: flex;
+  flex-direction: row;
+  padding:5% 0;
+  border-bottom:1px solid #ccc;
+}
+.reservePost .inputText>span{
+  color:#000;
+  font-size:20px;
+}
+.reservePost .inputText>input{
+  border:0;
+}
+.reservePost>p{
+  color:#999;
+}
+.reservePost>p>span{
+  color:cyan;
+}
+.reservePost>button{
+  width: 100%;
+  padding:3% 0;
+  border:0;
+  color:#fff;
+  margin-bottom:3%;
+  background-image:url('../images/u400.svg');
+}
+.reservePost .reserveTime{
+  color:#999;
+  font-size:12px;
+  margin:0 auto;
+}

@@ -1,0 +1,82 @@
+.myaccount{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+.myaccount>.header{
+  display: flex;
+  margin:0;
+  color:#fff;
+  font-size: 16px;
+  font-weight:500;
+  padding:3% 3%;
+  justify-content: space-between;
+  background-image: url('../images/u402.svg');
+}
+.myaccount .header .myaccountpan{
+  margin:0;
+  text-align:center;
+}
+.reserve{
+  display: flex;
+  justify-content:space-between;
+  padding:2%;
+  text-align: center;
+  border-bottom:1px solid #ccc;
+}
+.reserve>img{
+  width: 5%;
+  height: 5%;
+  margin-top:3%;
+}
+.reserve>div{
+  display: flex;
+  flex-direction: column;
+  font-size:14px;
+  color:#666;
+  margin-left:-45%;
+}
+.reserve>div>.reservemoney{
+  font-size:26px;
+}
+.reserve >a{
+  width: 20%;
+  height: 5%;
+  border:0;
+  background-color:red;
+  color:#fff;
+  padding:1% 0;
+  border-radius: 6px;
+  margin-top:3%;
+}
+.reserve >a button{
+  border:0;
+  background-color: red;
+}
+.myaccount>img{
+  width:35%;
+  margin:0 auto;
+  padding:20% 0;
+}
+.floor{
+  width: 100%;
+  display: flex;
+  padding-bottom:20%;
+  justify-content:space-around;
+}
+.floor>div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.floor>div>img{
+  width: 50%;
+  margin:0 auto;
+}
+.floor>div>span{
+  font-size:14px;
+  color:#333;
+}

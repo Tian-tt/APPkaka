@@ -1,0 +1,65 @@
+.feedback{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  color:#333;
+}
+.feedbackContent{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.feedbackContent>div{
+  padding:3% 0 3% 3%;
+}
+.feedbackContent .numquestion{
+  padding-right: 3%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+}
+.feedbackContent .numquestion .redbox{
+  width:15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color:red;
+}
+.feedbackContent .describe>textarea{
+  margin:0;
+  width: 98%;
+  padding-top:0;
+  text-indent: 8px;
+  border:1px solid #ccc;
+}
+.feedback .foot{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  padding-left:3%;
+}
+.feedback .questions{
+  border-bottom:1px solid #666;
+  background-color: #fff;
+}
+.feedback .foot>div{
+  width: 100%;
+  padding:3% 0 ;
+}
+.foot>a{
+  width: 90%;
+  margin:0 auto;
+}
+.foot>a>button{
+  border:0;
+  background-image: url('../images/u402.svg');
+  width: 100%;
+  border-radius: 6px;
+  padding:3% 0;
+  color:#fff;
+  font-weight:500;
+  font-size:16px;
+  margin-top:30%;
+  margin-bottom:40%;
+}

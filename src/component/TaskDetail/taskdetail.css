@@ -1,0 +1,154 @@
+body{
+  margin-right:0;
+}
+.taskdetail{
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  box-sizing: border-box;
+  position: relative;
+}
+.header{
+  width: 100%;
+}
+.header>a>img{
+  width: 20px;
+  height: 20px;
+}
+.person{
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding:5% 0 2% 0;
+}
+.person .detailphoto{
+  width: 20%;
+  margin:0 auto;
+}
+.person .namesex{
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.person .namesex span{
+  font-size:14px;
+  margin-right:2%;
+}
+.person .namesex img{
+  width: 5%;
+  height: 5%;
+}
+.detail{
+  width: 100%;
+  margin-top:3%;
+  padding:5% 7%;
+  background-color: #fff;
+}
+.detail>img{
+  width: 40%;
+  margin-bottom:5%;
+}
+.detail .taskdet{
+  width: 100%;
+  display: flex;
+}
+.detail .taskdet>img{
+  width: 5%;
+  height: 5%;
+}
+.detail .taskdet span{
+  font-size:12px;
+}
+.detail .taskdet .time{
+  color:#999;
+  margin-right:10%;
+}
+.detail .taskdet .money{
+  width: 10%;
+  height: 10%;
+  margin-top:-5%;
+  margin-left:4%;
+}
+.detail .taskdet .price{
+  font-size:30px;
+  font-weight:300;
+  color:red;
+  margin-top:-7%;
+}
+.taskdetail>button{
+  width: 70%;
+  border:0;
+  background-image: url('../images/u402.svg');
+  color:#fff;
+  padding:2% 5%;
+  margin:30% 0 30% 15%;
+  border-radius: 6px;
+  font-size: 16px;
+}
+#attention{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top:0;
+  left:0;
+  background:rgba(0,0,0,0.9);
+  color:#fff;
+  padding:2% 10%;
+}
+#attention>img{
+  display: block;
+  width:15%;
+  height:7%;
+  margin:0 auto;
+  margin-bottom:10%;
+}
+#attention .title{
+  font-size: 20px;
+  font-weight:400;
+  margin-left:38%;
+  padding:2% 0;
+}
+#attention p{
+  margin:0;
+  padding:10% 0;
+  font-size: 14px;
+  border-bottom:1px solid #fff;
+}
+#attention .sur{
+  border:0;
+}
+#attention a button{
+  color:#333;
+  border:0;
+  border-radius: 6px;
+  width: 30%;
+  margin:0 auto;
+  font-size:16px;
+  padding:2% 0;
+  background-image: url('../images/u175.png');
+  margin:10% 0 5% 36%;
+}
+#attention .radioed{
+  position: relative;
+}
+#attention .radiobox{
+  width:16px;
+  height:16px;
+  background-color: #fff;
+  margin-left:40%;
+  position: relative;
+}
+#attention .radiobox>img{
+  position: absolute;
+  top:3px;
+  left:2px;
+}
+#attention span.no{
+  position: absolute;
+  left:47%;
+  top:0;
+}

@@ -1,0 +1,175 @@
+body{
+  box-sizing: border-box;
+  margin:0;
+  background-color: #f1f1f1;
+}
+.home{
+  width:100%;
+  display: flex;
+  flex-flow: column;
+}
+.home .header{
+  width: 100%;
+  display: flex;
+  padding:5px 10px;
+  background-image: url('../images/u402.svg');
+}
+.home .header>span{
+  margin:0;
+  margin-top:2%;
+  text-align: center;
+}
+.home .header .kaka{
+  width: 20%;
+  height: 20%;
+  margin:0 auto;
+}
+.home .header .area,.home .header .search{
+  width: 5%;
+  height: 5%;
+  margin:0;
+  margin-top:2%;
+}
+.home .header>span{
+  color:#fff;
+}
+
+.home .banner{
+  width:100%;
+}
+.home .banner img{
+  width:100%;
+  height: 200px;
+  background: #364d79;
+  overflow: hidden;
+}
+
+.new{
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+}
+.new .title{
+  color:red;
+  margin:0 auto;
+  font-size:16px;
+  padding:5px 0;
+}
+.new .content{
+  display:flex;
+  justify-content: space-around;
+}
+.new .content>a{
+  width: 45%;
+  border-radius: 6px;
+  padding:5px;
+  background-color: #fff;
+}
+.new .content>a div{
+  width: 100%;
+  color:#666;
+}
+.new .content>a div .intro .photo{
+  width: 15%;
+  height: 15%;
+}
+.new .content>a div p{
+  color:#666;
+  font-size:14px;
+}
+.new .content>a div .intro{
+  width: 100%;
+  display: flex;
+  font-size:12px;
+}
+.new .content>a div .animg{
+  width: 40%;
+}
+.intro img{
+  width: 10%;
+  height: 10%;
+}
+.new .content>a div .intro .right>div{
+  display: flex;
+  justify-content: space-between;
+}
+.new .content>a div .intro .right .price{
+  text-align:end;
+}
+.new .content>a div .intro .right .price .money{
+  color:red;
+  font-weight:400;
+  font-size:16px;
+  margin:0 10%;
+}
+.new .content>a div .intro .chenarea{
+  color:#999;
+  font-size:12px;
+}
+.intro .right .name>img,.intro .right .price>img{
+  width: 23%;
+  height:80%;
+}
+/*.new .content .anran>img{
+  width: 40%;
+}*/
+
+.recommend{
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  padding-bottom:15%;
+}
+.recommend .title{
+  color:red;
+  margin:0 auto;
+  font-size:16px;
+  padding:5px 0;
+}
+.recommend .contents{
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+.recommend .contents>img{
+  width: 32%;
+  height: 97px;
+}
+.recommend .suoluomentext{
+  background-color: #fff;
+  display:flex;
+  flex-flow: column;
+  padding-left:10px;
+}
+.recommend .suoluomentext .span1{
+  font-size:12px;
+  color:#666;
+}
+.recommend .suoluomentext .span2{
+  font-size:12px;
+  color:#999;
+}
+.recommend .recommendLink{
+  width: 100%;
+  display: flex;
+  background-color: #fff;
+  padding-left:10px;
+  font-size:12px;
+  color:#333;
+  margin-bottom:5px;
+}
+.recommend .recommendLink>div>img{
+  width: 30%;
+  margin-right:10px;
+}
+.recommend .recommendLink .div1>img{
+  width: 25%;
+}
+.recommend .recommendLink .div3{
+  margin-top:-5px;
+}
+.recommend .recommendLink .div3 img{
+  width: 40%;
+}

@@ -1,0 +1,39 @@
+.aboutus{
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding-bottom:50%;
+}
+.aboutus>img{
+  width: 25%;
+  margin:0 auto;
+  margin-top:10%;
+  margin-bottom:3%;
+}
+.aboutus h3{
+  font-style:normal;
+  font-size:16px;
+  font-weight:400;
+  margin:0 auto;
+}
+.aboutContent{
+  width:100%;
+  padding-left:3%;
+  margin-top:10%;
+}
+.aboutContent>div{
+  width: 100%;
+  border-bottom:1px solid #ccc;
+  padding:3% 0;
+}
+.aboutus>span{
+  margin-left:3%;
+  margin-top:3%;
+}
+.aboutus>p{
+  width: 75%;
+  margin-left: 12%;
+  text-indent: 23px;
+}

@@ -1,0 +1,14 @@
+.show{
+  width: 100vw;
+  height: 100vh;
+  overflow:hidden;
+}
+.pic{
+  width: 400vw;
+  height: 100vh;
+  display: flex;
+}
+.pic>img{
+  width: 100vw;
+  height: 100vh;
+}

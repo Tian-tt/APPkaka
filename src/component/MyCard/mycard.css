@@ -1,0 +1,83 @@
+i{
+  font-style: normal;
+}
+.mycard{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+.tree{
+  width: 100%;
+  color:#fff;
+  font-size:12px;
+  position: relative;
+}
+.tree>img{
+  width: 100%;
+}
+.tree .visitor{
+  position: absolute;
+  top:80%;
+  left:80%;
+}
+.tree .zan{
+  position: absolute;
+  top:90%;
+  left:80%;
+}
+.tree .cardperson{
+  width: 20%;
+  position: absolute;
+  top:75%;
+  left:10%;
+}
+.tree .phonenum{
+  position: absolute;
+  color:#fff;
+  font-size:16px;
+  top:90%;
+  left:32%;
+}
+.tree>.sex{
+  width:4%;
+  position: absolute;
+  top:91%;
+  left:54%;
+}
+.treeContent{
+  width: 100%;
+  border-bottom:1px solid #ccc;
+  position: relative;
+}
+.treeContent>span:first-child{
+  font-size:14px;
+  color:#999;
+  position: absolute;
+  top:3%;
+  left:32%;
+}
+.treeContent>span:nth-child(2){
+  font-size:14px;
+  color:#333;
+  position: absolute;
+  top:27%;
+  left:32%;
+}
+.treeContent>span:nth-child(3){
+  font-size:12px;
+  color:#333;
+  position: absolute;
+  top: 70%;
+  left: 12%;
+}
+.treeContent>img{
+  width: 20%;
+  margin:2% 0 0 80%;
+}
+.mycard>img{
+  width: 70%;
+  margin:0 auto;
+  margin-bottom:20%;
+}
