@@ -1,6 +1,6 @@
 import React from 'react'
 import './app.css'
-import {BrowserRouter as Router,Route,Switch} from 'react-router-dom'
+import {HashRouter as Router,Route,Switch} from 'react-router-dom'
 import Guide from '../Guide/Guide'
 import Login from '../Login/Login'
 import Home from '../Home/Home'
